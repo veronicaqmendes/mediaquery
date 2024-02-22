@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@media only screen and (min-width:400px) and (max-width:700px) {
+
+    * {
+        font-family: "Inter", sans-serif;
+
+    }
+
+    a {
+        color: #5d5d5d;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #body {
+        background-color: #babbf3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .form {
+        width: 60vw;
+        height: 40vh;
+        background-color: #ffff;
+        border-radius: 5%;
+
+    }
+
+    .title {
+        justify-content: center;
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+
+    .p {
+        font-size: 13px;
+    }
+
+    .login {
+        display: block;
+        align-items: center;
+        width: 50vw;
+        height: 6vh;
+        background-color: #f8f8f8;
+        border-radius: 2%;
+        outline: none;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+
+    .button {
+        display: block;
+        align-items: center;
+    }
+}
